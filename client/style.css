@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.back{
+    background: url("bg.png") no-repeat center fixed;
+    background-size: cover;
+}
+header {
+    margin-top: 70px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(71, 71, 71);
+}
+
+.tweet-form, .loading{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn-submit {
+    background-color: rgba(89, 4, 116, 0.685);
+    color: #F1F2F3;
+}
+.btn-submit:hover {
+    background-color: rgba(183, 112, 204, 0.637);
+    color: rgb(85, 86, 88);
+}
+.loading {
+    text-align: center;
+}
+
+.messages {
+    margin-top: 30vh;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.entry {
+    margin-top: 20px;
+    padding: 2rem;
+    color: rgb(99, 0, 129);
+    border: 1px solid rgba(89, 4, 116, 0.685);
+    border-radius: 18px;  
+}
+.caption {
+    margin-bottom: 2px;
+    font-family: 'Comfortaa', cursive;
+}
+.message {
+    font-size: 25px;
+    font-weight:400 ;
+    font-family: 'Indie Flower', cursive;
+}
